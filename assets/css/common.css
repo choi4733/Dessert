@@ -1,8 +1,28 @@
+/* 스킵메뉴 */
+#sikp {
+  position: relative;
+}
+#sikp a {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 5px;
+  left: -400px;
+}
+#sikp a:active,
+#sikp a:focus {
+  left: 5px;
+}
+
+/* 컨테이너 */
 /* common */
 .container {
   width: 1160px;
   margin: 0 auto;
 }
+
+/* 섹션요소 */
 .section {
   padding: 120px 0;
 }
